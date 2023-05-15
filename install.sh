@@ -208,7 +208,7 @@ clear
 yellow "Add Domain for ssh/vmess/vless/trojan dll"
 yellow "Jika tidak mempunyai domain Hubungi @xlord27"
 echo "-------------------------------------"
-echo "     Script Jarwoks Tunneling "
+echo "     Script Xlord Tunneling "
 echo "-------------------------------------"
 read -rp "Input your domain : " -e pp
 echo "$pp" > /root/domain
@@ -363,7 +363,7 @@ echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script xlord27 Tunneling ]-==============="
+echo "===============-[ Script Xlord Tunneling ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt
