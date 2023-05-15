@@ -184,10 +184,10 @@ echo -e "  ${BLUE}• ${GREEN}Operating System    ${NC}= $( cat /etc/os-release 
 echo -e "  ${BLUE}• ${GREEN}Domain              ${NC}= $( cat /etc/xray/domain )"
 echo -e "  ${BLUE}• ${GREEN}Server IP           ${NC}= ${IP}"
 echo -e "  ${BLUE}• ${GREEN}ISP-VPS             ${NC}= ${ISP}"
-echo -e "  ${BLUE}• ${GREEN}kota                ${NC}= ${CITY}"
+echo -e "  ${BLUE}• ${GREEN}region              ${NC}= ${CITY}"
 echo -e "  ${BLUE}• ${GREEN}nama pembeli        ${NC}= ${YELLOW}$Name ${NC}"
-echo -e "  ${BLUE}• ${GREEN}masa aktif       ${NC}= ${YELLOW}$Exp ${NC}"
-echo -e "  ${BLUE}• ${GREEN}pembuat sc           ${NC}= XLORD VPN STORE ${NC}"
+echo -e "  ${BLUE}• ${GREEN}masa aktif          ${NC}= ${YELLOW}$Exp ${NC}"
+echo -e "  ${BLUE}• ${GREEN}owner script        ${NC}= XLORD VPN STORE ${NC}"
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                     << STATUS SERVICE >>                    \E[0m" | lolcat
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
@@ -205,7 +205,7 @@ echo -e "  ${CYAN}[02]${NC} • ${RED}[${NC}${PURPLE} VMESS MENU ${NC}${RED}]${N
 echo -e "  ${CYAN}[03]${NC} • ${RED}[${NC}${PURPLE} VLESS MENU ${NC}${RED}]${NC}           ${CYAN}[10]${NC} • ${RED}[${NC}${PURPLE} INFORMATION ${NC}${RED}]${NC}     "
 echo -e "  ${CYAN}[04]${NC} • ${RED}[${NC}${PURPLE} TROJAN MENU ${NC}${RED}]${NC}          ${CYAN}[11]${NC} • ${RED}[${NC}${PURPLE} ADD HOST/DOMAIN ${NC}${RED}]${NC}    "
 echo -e "  ${CYAN}[05]${NC} • ${RED}[${NC}${PURPLE} SSWS MENU ${NC}${RED}]${NC}            ${CYAN}[12]${NC} • ${RED}[${NC}${PURPLE} CERT DOMAIN ${NC}${RED}]${NC}    "
-echo -e "  ${CYAN}[06]${NC} • ${RED}[${NC}${PURPLE} UPDATE SCRIPT ${NC}${RED}]${NC}           ${CYAN}[13]${NC} • ${RED}[${NC}${PURPLE} AUTO REBOOT ${NC}${RED}]${NC}     "
+echo -e "  ${CYAN}[06]${NC} • ${RED}[${NC}${PURPLE} UPDATE SCRIPT ${NC}${RED}]${NC}        ${CYAN}[13]${NC} • ${RED}[${NC}${PURPLE} AUTO REBOOT ${NC}${RED}]${NC}     "
 echo -e "  ${CYAN}[07]${NC} • ${RED}[${NC}${PURPLE} TEMA MENU ${NC}${RED}]${NC}           ${CYAN}[14]${NC} • ${RED}[${NC}${PURPLE} AAD BOT ${NC}${RED}]${NC} "
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                    << SCRIPT PREMIUM MULTIPORT >>                    \E[0m" | lolcat
