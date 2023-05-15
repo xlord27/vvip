@@ -17,7 +17,7 @@ fi
 
 clear
 echo -e "$COLOR1━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
-echo -e "$COLBG1               • RENEW DOMAIN SSL •               $NC"
+echo -e "$COLBG1               ❅ RENEW DOMAIN SSL ❅               $NC"
 echo -e "$COLOR1━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━$NC"
 echo -e ""
 echo -e "[ ${green}INFO${NC} ] Start " 
