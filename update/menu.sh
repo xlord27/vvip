@@ -181,13 +181,13 @@ echo -e "$COLOR1└────────────────────�
 echo -e "  ${BLUE}• ${GREEN}Sever Uptime        ${NC}= $( uptime -p  | cut -d " " -f 2-10000 ) "
 echo -e "  ${BLUE}• ${GREEN}Current Time        ${NC}= $( date -d "0 days" +"%d-%m-%Y | %X" )"
 echo -e "  ${BLUE}• ${GREEN}Operating System    ${NC}= $( cat /etc/os-release | grep -w PRETTY_NAME | sed 's/PRETTY_NAME//g' | sed 's/=//g' | sed 's/"//g')( $(uname -m))"
-echo -e "  ${BLUE}• ${GREEN}Current Domain      ${NC}= $( cat /etc/xray/domain )"
+echo -e "  ${BLUE}• ${GREEN}Domain              ${NC}= $( cat /etc/xray/domain )"
 echo -e "  ${BLUE}• ${GREEN}Server IP           ${NC}= ${IP}"
 echo -e "  ${BLUE}• ${GREEN}ISP-VPS             ${NC}= ${ISP}"
-echo -e "  ${BLUE}• ${GREEN}City                ${NC}= ${CITY}"
-echo -e "  ${BLUE}• ${GREEN}Clients Name        ${NC}= ${YELLOW}$Name ${NC}"
-echo -e "  ${BLUE}• ${GREEN}Script Expert       ${NC}= ${YELLOW}$Exp ${NC}"
-echo -e "  ${BLUE}• ${GREEN}Developer           ${NC}= XlordStoreVPN Tunneling ${NC}"
+echo -e "  ${BLUE}• ${GREEN}kota                ${NC}= ${CITY}"
+echo -e "  ${BLUE}• ${GREEN}nama pembeli        ${NC}= ${YELLOW}$Name ${NC}"
+echo -e "  ${BLUE}• ${GREEN}masa aktif       ${NC}= ${YELLOW}$Exp ${NC}"
+echo -e "  ${BLUE}• ${GREEN}pembuat sc           ${NC}= XLORD VPN STORE ${NC}"
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                     << STATUS SERVICE >>                    \E[0m" | lolcat
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
@@ -198,17 +198,17 @@ echo -e "$COLOR1│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJ
 echo -e "$COLOR1│  \033[0m ${Blue} $ssh1        $vma           $vla          $tra               $ssa   $NC    $COLOR1│"
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "                          << MENU >>                    \E[0m" | lolcat
+echo -e "                          << MENU VVIP >>                    \E[0m" | lolcat
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "  ${CYAN}[01]${NC} • ${RED}[${NC}${PURPLE} SSH MENU ${NC}${RED}]${NC}             ${CYAN}[08]${NC} • ${RED}[${NC}${PURPLE} BACKUP MENU ${NC}${RED}]${NC} "
-echo -e "  ${CYAN}[02]${NC} • ${RED}[${NC}${PURPLE} VMESS MENU ${NC}${RED}]${NC}           ${CYAN}[09]${NC} • ${RED}[${NC}${PURPLE} SETTING MENU${NC}${RED}]${NC}  "
+echo -e "  ${CYAN}[02]${NC} • ${RED}[${NC}${PURPLE} VMESS MENU ${NC}${RED}]${NC}           ${CYAN}[09]${NC} • ${RED}[${NC}${PURPLE} PENGATURAN VPS ${NC}${RED}]${NC}  "
 echo -e "  ${CYAN}[03]${NC} • ${RED}[${NC}${PURPLE} VLESS MENU ${NC}${RED}]${NC}           ${CYAN}[10]${NC} • ${RED}[${NC}${PURPLE} INFORMATION ${NC}${RED}]${NC}     "
 echo -e "  ${CYAN}[04]${NC} • ${RED}[${NC}${PURPLE} TROJAN MENU ${NC}${RED}]${NC}          ${CYAN}[11]${NC} • ${RED}[${NC}${PURPLE} ADD HOST/DOMAIN ${NC}${RED}]${NC}    "
-echo -e "  ${CYAN}[05]${NC} • ${RED}[${NC}${PURPLE} SSWS MENU ${NC}${RED}]${NC}            ${CYAN}[12]${NC} • ${RED}[${NC}${PURPLE} CERT XRAY ${NC}${RED}]${NC}    "
-echo -e "  ${CYAN}[06]${NC} • ${RED}[${NC}${PURPLE} UPDATE MENU${NC}${RED}]${NC}           ${CYAN}[13]${NC} • ${RED}[${NC}${PURPLE} AUTO REBOOT ${NC}${RED}]${NC}     "
-echo -e "  ${CYAN}[07]${NC} • ${RED}[${NC}${PURPLE} THEME MENU ${NC}${RED}]${NC}           ${CYAN}[14]${NC} • ${RED}[${NC}${PURPLE} MENU BOT ${NC}${RED}]${NC} "
+echo -e "  ${CYAN}[05]${NC} • ${RED}[${NC}${PURPLE} SSWS MENU ${NC}${RED}]${NC}            ${CYAN}[12]${NC} • ${RED}[${NC}${PURPLE} CERT DOMAIN ${NC}${RED}]${NC}    "
+echo -e "  ${CYAN}[06]${NC} • ${RED}[${NC}${PURPLE} UPDATE SCRIPT ${NC}${RED}]${NC}           ${CYAN}[13]${NC} • ${RED}[${NC}${PURPLE} AUTO REBOOT ${NC}${RED}]${NC}     "
+echo -e "  ${CYAN}[07]${NC} • ${RED}[${NC}${PURPLE} TEMA MENU ${NC}${RED}]${NC}           ${CYAN}[14]${NC} • ${RED}[${NC}${PURPLE} AAD BOT ${NC}${RED}]${NC} "
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "                    << SCRIPT PREMIUM ALLPORT >>                    \E[0m" | lolcat
+echo -e "                    << SCRIPT PREMIUM MULTIPORT >>                    \E[0m" | lolcat
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e ""
 echo -ne " Select menu : "; read opt
