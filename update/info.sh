@@ -11,7 +11,7 @@ COLBG1="\e[1;97;101m"
 
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}           • INFO PANEL MENU •          ${NC} "
+echo -e " ${COLBG1}           ❅ XLORD PROJECT ❅          ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 cat log-install.txt
