@@ -108,7 +108,7 @@ else
 ressq="${red}OFFLINE${NC}"
 fi
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}             • SERVER STATUS •          ${NC} "
+echo -e " ${COLBG1}             ❅ SERVER STATUS ❅          ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "   • SSH & VPN                • $ressh"
 echo -e "   • SQUID                    • $ressq"
@@ -130,7 +130,7 @@ menu-set
 function restart(){
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}              • SERVER STATUS •         ${NC} "
+echo -e " ${COLBG1}              ❅ SERVER STATUS ❅         ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 systemctl daemon-reload
 echo -e "   [INFO] • Starting ...                        "
@@ -214,7 +214,7 @@ menu-set
 
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}              • VPS SETTING •           $NC"
+echo -e " ${COLBG1}              ❅ PENGATURAN VPS ❅           $NC"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\033[1;93m〔⎆〕 ${grenbo}1.${NC} \033[0;36mCek RUNNING${NC}"
 echo -e "\033[1;93m〔⎆〕 ${grenbo}2.${NC} \033[0;36mSet BANNER${NC}"
