@@ -36,7 +36,7 @@ portsshws=`cat ~/log-install.txt | grep -w "SSH Websocket" | cut -d: -f2 | awk '
 wsssl=`cat /root/log-install.txt | grep -w "SSH SSL Websocket" | cut -d: -f2 | awk '{print $1}'`
 
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}            • SSH PANEL MENU •          ${NC} "
+echo -e " ${COLBG1}            ❅ SSH PANEL VVIP ❅      ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 read -p "   Username : " Login
 read -p "   Owner     : " OWNER
@@ -123,7 +123,7 @@ PID=`ps -ef |grep -v grep | grep sshws |awk '{print $2}'`
 
 if [[ ! -z "${PID}" ]]; then
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}           • SSH PANEL MENU •           ${NC} "
+echo -e " ${COLBG1}           ❅ XlordProject ❅           ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "  Username   : $Login" 
 echo -e "  Password   : $Pass"
@@ -144,7 +144,7 @@ echo -e "  GET wss://bug.com/ HTTP/1.1[crlf]Host: [host] [crlf]Upgrade: websocke
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 else
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}            • SSH PANEL MENU •          ${NC} "
+echo -e " ${COLBG1}            ❅ XlordProject ❅          ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "  Username   : $Login" 
 echo -e "  Password   : $Pass"
@@ -260,7 +260,7 @@ function cekssh(){
 
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}          • SSH ACTIVE USERS •          ${NC} "
+echo -e " ${COLBG1}          ❅ AKUN SSH AKTIF ❅          ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 
@@ -328,7 +328,7 @@ menu-ssh
 function delssh(){
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}           • SSH DELETE USERS •         ${NC} "
+echo -e " ${COLBG1}           ❅ HAPUS USER SSH ❅         ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"    
 echo "   USERNAME        EXP DATE        STATUS"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"  
@@ -372,7 +372,7 @@ menu-ssh
 function renewssh(){
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}           • RENEW SSH ACCOUNT •        ${NC} "
+echo -e " ${COLBG1}           ❅ PERPANJANG USER SSH ❅       ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"    
 echo "   USERNAME        EXP DATE        STATUS"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"  
@@ -431,7 +431,7 @@ egrep "^$User" /etc/passwd >/dev/null
 echo -e "$Pass\n$Pass\n"|passwd $User &> /dev/null
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}         • RENEW SSH ACCOUNT •          ${NC} "
+echo -e " ${COLBG1}         ❅ PERPANJANG USER SSH ❅          ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "   Username   : $User"
 echo -e "   Days Added : $Days Days"
@@ -440,7 +440,7 @@ echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━�
 else
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}           • RENEW SSH ACCOUNT •        ${NC} "
+echo -e " ${COLBG1}           ❅ PERPANJANG USER SSH ❅        ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "   Username Doesnt Exist      "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
@@ -454,7 +454,7 @@ menu-ssh
 function memberssh(){
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}          • MEMBER SSH ACCOUNT •        ${NC} "
+echo -e " ${COLBG1}          ❅ JUMLAH USER SSH ❅        ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"    
 echo "   USERNAME        EXP DATE        STATUS"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"  
@@ -513,7 +513,7 @@ PID=`ps -ef |grep -v grep | grep sshws |awk '{print $2}'`
 
 if [[ ! -z "${PID}" ]]; then
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}         • SSH TRIAL ACCOUNT •          ${NC} "
+echo -e " ${COLBG1}         ❅ TRIAL AKUN ❅          ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "  Username   : $Login" 
 echo -e "  Password   : $Pass"
@@ -536,7 +536,7 @@ echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━�
 else
 
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " ${COLBG1}         • SSH TRIAL ACCOUNT •          ${NC} "
+echo -e " ${COLBG1}         ❅ TRIAL AKUN ❅          ${NC} "
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "  Username   : $Login" 
 echo -e "  Password   : $Pass"
@@ -562,7 +562,7 @@ menu-ssh
 }
 clear
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " \e[1;97;101m            MENU MANAGER SSH           \E[0m"
+echo -e " \e[1;97;101m           ❅ BUAT/TRIAL SSH VVIP ❅        \E[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\033[1;93m〔⎆〕 ${grenbo}1.${NC} \033[0;36mCreating a SSH Account${NC}"
 echo -e "\033[1;93m〔⎆〕 ${grenbo}2.${NC} \033[0;36mTriall a Trial Account${NC}"
