@@ -122,13 +122,13 @@ echo -e "$Pass\n$Pass\n"|passwd $Login &> /dev/null
 PID=`ps -ef |grep -v grep | grep sshws |awk '{print $2}'`
 
 if [[ ! -z "${PID}" ]]; then
-echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[1;36m=================================================\033[0m"
 echo -e " ${COLBG1}           ❅ XlordProject ❅           ${NC} "
-echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[1;36m==============================━==================\033[0m"
 echo -e "  Username   : $Login" 
 echo -e "  Password   : $Pass"
 echo -e "  Expired On : $exp" 
-echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[1;36m==============================\033[0m"
 echo -e "  IP         : $IP" 
 echo -e "  Host       : $domen" 
 echo -e "  OpenSSH    : $opensh"
@@ -139,7 +139,7 @@ echo -e "  SSL/TLS    :$ssl"
 echo -e "  UDPGW      : 7100-7300" 
 echo -e "  NS Slowdns : $dnsdomain"
 echo -e "  DNS PubKey : $dnskey" 
-echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\033[1;36m===================================\033[0m"
 echo -e "  GET wss://bug.com/ HTTP/1.1[crlf]Host: [host] [crlf]Upgrade: websocket[crlf][crlf]"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 else
