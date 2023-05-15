@@ -176,7 +176,7 @@ fi
 clear
 clear
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "                      ❅ XlordProject ❅                    \E[0m" | lolcat
+echo -e "                       ❅ XlordProjectShh ❅                    \E[0m" | lolcat
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "  ${BLUE}• ${GREEN}Sever Uptime        ${NC}= $( uptime -p  | cut -d " " -f 2-10000 ) "
 echo -e "  ${BLUE}• ${GREEN}Current Time        ${NC}= $( date -d "0 days" +"%d-%m-%Y | %X" )"
@@ -198,7 +198,7 @@ echo -e "$COLOR1│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJ
 echo -e "$COLOR1│  \033[0m ${Blue} $ssh1        $vma           $vla          $tra               $ssa   $NC    $COLOR1│"
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "                          << MENU VVIP >>                    \E[0m" | lolcat
+echo -e "                         << MENU VVIP >>                    \E[0m" | lolcat
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "  ${CYAN}[01]${NC} • ${RED}[${NC}${PURPLE} SSH MENU ${NC}${RED}]${NC}             ${CYAN}[08]${NC} • ${RED}[${NC}${PURPLE} BACKUP MENU ${NC}${RED}]${NC} "
 echo -e "  ${CYAN}[02]${NC} • ${RED}[${NC}${PURPLE} VMESS MENU ${NC}${RED}]${NC}           ${CYAN}[09]${NC} • ${RED}[${NC}${PURPLE} PENGATURAN VPS ${NC}${RED}]${NC}  "
@@ -206,7 +206,7 @@ echo -e "  ${CYAN}[03]${NC} • ${RED}[${NC}${PURPLE} VLESS MENU ${NC}${RED}]${N
 echo -e "  ${CYAN}[04]${NC} • ${RED}[${NC}${PURPLE} TROJAN MENU ${NC}${RED}]${NC}          ${CYAN}[11]${NC} • ${RED}[${NC}${PURPLE} ADD HOST/DOMAIN ${NC}${RED}]${NC}    "
 echo -e "  ${CYAN}[05]${NC} • ${RED}[${NC}${PURPLE} SSWS MENU ${NC}${RED}]${NC}            ${CYAN}[12]${NC} • ${RED}[${NC}${PURPLE} CERT DOMAIN ${NC}${RED}]${NC}    "
 echo -e "  ${CYAN}[06]${NC} • ${RED}[${NC}${PURPLE} UPDATE SCRIPT ${NC}${RED}]${NC}        ${CYAN}[13]${NC} • ${RED}[${NC}${PURPLE} AUTO REBOOT ${NC}${RED}]${NC}     "
-echo -e "  ${CYAN}[07]${NC} • ${RED}[${NC}${PURPLE} TEMA MENU ${NC}${RED}]${NC}           ${CYAN}[14]${NC} • ${RED}[${NC}${PURPLE} AAD BOT ${NC}${RED}]${NC} "
+echo -e "  ${CYAN}[07]${NC} • ${RED}[${NC}${PURPLE} TEMA MENU ${NC}${RED}]${NC}            ${CYAN}[14]${NC} • ${RED}[${NC}${PURPLE} TAMBAH BOT ${NC}${RED}]${NC} "
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "                    << SCRIPT PREMIUM MULTIPORT >>                    \E[0m" | lolcat
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
