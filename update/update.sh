@@ -25,5 +25,6 @@ wget -q -O /usr/bin/mspeed "https://raw.githubusercontent.com/xlord27/VVIP/main/
 wget -q -O /usr/bin/mbandwith "https://raw.githubusercontent.com/xlord27/VVIP/main/update/menu-bandwith.sh" && chmod +x /usr/bin/mbandwith
 echo -e " [INFO] Update Successfully"
 sleep 2
+rm -f update.sh
 exit
 
