@@ -189,7 +189,7 @@ echo -e "  ${BLUE}• ${GREEN}nama pembeli        ${NC}= ${YELLOW}$Name ${NC}"
 echo -e "  ${BLUE}• ${GREEN}masa aktif          ${NC}= ${YELLOW}$Exp ${NC}"
 echo -e "  ${BLUE}• ${GREEN}owner script        ${NC}= XLORD VPN STORE ${NC}"
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "        TODAY :${BIRed} $ttoday ${NC} << STATUS SERVICE >> MONTH :${BIRed} $bmon ${NC}                     \E[0m" | lolcat
+echo -e "     TODAY :${BIRed} $ttoday ${NC}  << STATUS SERVICE >>  MONTH :${BIRed} $bmon ${NC}                     \E[0m" | lolcat
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "      ${COLOR2}[ SSH Websocket${NC}: ${GREEN}ON ${NC}]  [ NGINX${NC}: ${status_nginx} ] [ XRAY${NC} : ${status_xray} ] "
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
@@ -208,7 +208,7 @@ echo -e "  ${CYAN}[05]${NC} • ${RED}[${NC}${PURPLE} SSWS MENU ${NC}${RED}]${NC
 echo -e "  ${CYAN}[06]${NC} • ${RED}[${NC}${PURPLE} UPDATE SCRIPT ${NC}${RED}]${NC}        ${CYAN}[13]${NC} • ${RED}[${NC}${PURPLE} AUTO REBOOT ${NC}${RED}]${NC}     "
 echo -e "  ${CYAN}[07]${NC} • ${RED}[${NC}${PURPLE} TEMA MENU ${NC}${RED}]${NC}            ${CYAN}[14]${NC} • ${RED}[${NC}${PURPLE} TAMBAH BOT ${NC}${RED}]${NC} "
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "                   << SCRIPT PREMIUM MULTIPORT >>                    \E[0m" | lolcat
+echo -e "                  << SCRIPT PREMIUM MULTIPORT >>                    \E[0m" | lolcat
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e ""
 echo -ne " Select menu : "; read opt
