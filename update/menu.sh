@@ -189,7 +189,7 @@ echo -e "  ${BLUE}• ${GREEN}nama pembeli        ${NC}= ${YELLOW}$Name ${NC}"
 echo -e "  ${BLUE}• ${GREEN}masa aktif          ${NC}= ${YELLOW}$Exp ${NC}"
 echo -e "  ${BLUE}• ${GREEN}owner script        ${NC}= XLORD VPN STORE ${NC}"
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "                       << STATUS SERVICE >>                    \E[0m" | lolcat
+echo -e "         TODAY :${BIRed} $ttoday ${NC} << STATUS SERVICE >>                    \E[0m" | lolcat
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e "      ${COLOR2}[ SSH Websocket${NC}: ${GREEN}ON ${NC}]  [ NGINX${NC}: ${status_nginx} ] [ XRAY${NC} : ${status_xray} ] "
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
