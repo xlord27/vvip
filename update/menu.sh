@@ -198,7 +198,7 @@ echo -e "$COLOR1│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJ
 echo -e "$COLOR1│  \033[0m ${Blue} $ssh1        $vma           $vla          $tra               $ssa   $NC    $COLOR1│"
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "                          << PILIH MENU >>                    \E[0m" | lolcat
+echo -e "                           << PILIH MENU >>                    \E[0m" | lolcat
 echo -e "$COLOR1└────────────────────────────────────────────────────────────┘${NC}"
 echo -e "  ${CYAN}[01]${NC} • ${RED}[${NC}${PURPLE} SSH MENU ${NC}${RED}]${NC}             ${CYAN}[08]${NC} • ${RED}[${NC}${PURPLE} BACKUP MENU ${NC}${RED}]${NC} "
 echo -e "  ${CYAN}[02]${NC} • ${RED}[${NC}${PURPLE} VMESS MENU ${NC}${RED}]${NC}           ${CYAN}[09]${NC} • ${RED}[${NC}${PURPLE} PENGATURAN VPS ${NC}${RED}]${NC}  "
